@@ -1,0 +1,78 @@
+Day : 2
+
+2. Mobile application: -
+
+
+=> it runs inside any mobile devices.
+Example: Youtube, Instagram, Snapchat, Chatgpt etc.
+
+TYPES:-
+
+A. Mobile Web application:-
+=> it runs inside browswer in mobile device also.
+=> it requires an internet connection.
+=> it is platform independent.
+=> no need to installation.
+
+Example: Google doc, google sheet etc.
+
+B. Native application:-
+=> it is developed for any specific platform.
+=> it is platform dependent.
+=> installed from app store and play store.
+=> Example: App store, Play store, apple music, google map etc.
+
+C. Hybrid application:-
+=> it's the combination of Native and mobile web application.
+Example: YOUtube, WhatsApp, Facebook, Instagram etc.
+
+
+3. Desktop Application:-
+=> it does not require any internet connection.
+=> it is developed for desktop only.
+
+Example: MS word, Excel, POwer Point, NOtepad etc.
+
+—
+Application:-
+
+PARTS :
+  1. Frontend
+  2. Backend
+
+1. what is Frontend?
+=> user visible parts of any application.
+=> it deals with user interface(UI).
+
+# Technologies:-
+1. HTML => it is used to build the body of any web page.
+2. CSS => it is used to apply styling of any web page.
+3. Bootstrap => it's the combination of HTML and CSS
+=> it is library of CSS . => BOotsrap 5.3 latest version
+4. React => Framework of javascript programming language.
+
+WHY: Jo Dikhta whi Bikta hai.
+
+
+2. Backend:-
+
+=> it is owner accessible part of any application.
+=> it deals with server side development.
+
+
+Technology:-
+1. java , it's Framework/Library  => Springboot
+2. Python , it's Framework/Library => Django, Pandas, NumPy, Flask
+3. JavaScript , it's framework/Library => Node.js, Next.js, Express.js
+4. PHP , it's Framework/Library => Laravel , Symfony
+
+
+3. Database :-
+
+=> Database, where we can store our data an organized form.
+=> it is used to manage our data.
+
+Types: PostgreSQL, MySQL, MongoDB.
+
+
+
