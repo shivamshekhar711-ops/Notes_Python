@@ -1,5 +1,4 @@
-Day: 17
-
+Day: 18
 Indexing =>
 
 =>name = "Tridev Shrama"
@@ -105,4 +104,12 @@ print(name1[3:6]) #dev
 # print(country[2:5])                  # we have to print "nad"
 
 # print(country[0 : 3])                # we have to print "Can"
+
+
+
+# String SLicing ( Three  Parameters):- 
+
+starting point 
+ending point 
+GAP ( N - 1 )
 
