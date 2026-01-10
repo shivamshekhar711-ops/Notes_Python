@@ -1,0 +1,87 @@
+DAY: 23
+
+# input function:- 
+
+# NOte: in python, input() function is similar as scanf() , which is used in C language.
+
+
+# a = 10 
+# b = 20 
+
+# print(a + b) # 30 
+
+
+# 2. 
+
+# first_name = input("Hii, Shivam please ENter your first name: ")
+# last_name = input("Hii, Shivam please enter your last name: ")
+
+# print(first_name, " ",  last_name)
+
+
+# # input() => it is used to take input data from the user side. 
+# => by default it gives us string type of data.
+# that's why we have specify the data type ( int, float) , whatever we want in result.
+
+
+# 3. 
+# name = input("Hii guys! enter your name: ")
+# age = int(input("Hii guys! enter your age: "))
+
+# print(name, " ", age)
+
+# 4. 
+
+
+# name = input("Hii guys! enter your name: ")
+# age = int(input("Hii guys! enter your age: "))
+
+# print("Name is : ", name , " ", "Age is : ", age )
+
+
+# print("Tridev")
+# print("Shivam")
+
+# print("Shivam", "40", " ", "ending")
+
+# ------------------------------------------------------- 
+
+
+# for i in range(0,5):
+#                     print(i)
+
+# starting point => 0
+# ending point => 5 ( excluded )
+
+# Range( 0 - 4 ) => output => 0,1,2,3,4
+
+
+
+
+# for i in range(5):
+#                     print(i)
+
+# i => Loop variable 
+# starting point => 0
+# ending point => 5 ( excluded)
+
+# range ( 0 - 4 ) => output => 0,1,2,3,4
+
+
+
+# NOte:
+
+# 1.  if starting point has not mentioned , in that case we have consider starting point = 0 . 
+# 2. Ending point will be always excluded.
+
+# -----------------------------------------------
+
+for i in range(4,9):
+                    print(i)
+
+# i => loop variable 
+# starting point => 4 
+# ending point => 9 ( Excluded )
+# range ( 4 - 8)  
+
+# ouput => 4,5,6,7,8
