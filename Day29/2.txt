@@ -1,0 +1,168 @@
+# function => it is just like a block of code 
+# => it saves our time 
+# => it increases our code readability 
+# => it increases our code reusability.
+
+
+# function without parameters  
+# function definition 
+# def print_all_std_name():
+#                     print("RUdra")
+#                     print("Neha")
+#                     print("Tridev")
+#                     print("SHivam")
+#                     print("Vikram")
+#                     print("Sushil")
+
+# # function call 
+# print_all_std_name()
+
+# a = 10 
+# b = 20 
+
+# if a > b :
+#                     print("a is greatetr")
+# else:
+#                     print("b is greater ")
+
+# # function call 
+# print_all_std_name()
+
+
+
+
+
+# function with parameter : 
+# 1. function with positional argument 
+# 2. function with default argument 
+
+
+
+# 1. function with positional argument 
+
+# # function definition 
+# def sum_two_number(first_num, second_num):
+#                     print("the sum is : ", first_num + second_num)
+
+
+# sum_two_number(22,33)
+
+
+
+# function definition 
+# def sum_three_number(first_num, second_num, third_num):
+#                     print("the sum is : ", first_num + second_num + third_num)
+
+
+# sum_three_number(22,33,11)
+
+
+
+# ----------------------------------------------------- 
+
+
+# my_value = 22
+
+# if my_value % 2 == 0:
+#                     print("this is even number")
+
+# else:
+#                     print("this is odd number")
+
+
+# % => it gives us remainder part performing by division operation.
+
+# 22 % 2 = 0 
+# 11 % 2 = 1
+# 10 % 2 = 0 
+# 90 % 2 = 0
+
+
+
+# my_value = int(input("enter the value "))
+
+# if my_value % 2 == 0:
+#                     print("this is even number")
+
+# else:
+#                     print("this is odd number")
+
+
+# --------------------------------------------- 
+
+
+# def check_even_odd(my_value):
+#                     if (my_value % 2 == 0):
+#                         print("this is even number")
+#                     else:
+#                         print("this is odd number")
+
+# check_even_odd(55)
+
+
+# print("this is Python programming ")
+# check_even_odd(44)
+# check_even_odd(99)
+# check_even_odd(90)
+# check_even_odd(87678987)
+
+
+
+# ------------------------ 
+
+
+
+# def check_even_odd():
+#                     my_value = int(input("enter the value "))
+#                     if (my_value % 2 == 0):
+#                         print("this is even number")
+#                     else:
+#                         print("this is odd number")
+
+# check_even_odd()
+
+
+
+# task: 
+
+# create a list and add at least 5 elements .
+
+
+# my_list = []
+
+# for i in range(5):
+#                     elements = int(input("enter the numbers "))
+#                     my_list.append(elements)
+
+# print(my_list)
+                    
+# ------------------------------------------------ 
+
+# create a list and add n numbers of elements  .
+
+
+# length = int(input("enter the length of list "))
+# my_list = []
+
+# for i in range(length):
+#                     elements = int(input("enter the numbers "))
+#                     my_list.append(elements)
+
+# print(my_list)
+
+
+
+# ---------------------------------------------
+
+def print_list(length):
+                    my_list = []
+                    for i in range(length):
+                        elements = int(input("enter the numbers "))
+                        my_list.append(elements)
+                    print(my_list)
+
+print_list(5)
+
+print("hiii, this is the second time you have called this function ")
+
+print_list(8)
